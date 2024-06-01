@@ -1,9 +1,11 @@
 
 const Footer = () => {
     return (
-        <div>
-            
-        </div>
+        <footer className="footer">
+            <div>
+                <p>Taj Brzovič Ciglar</p>
+            </div>
+        </footer>
     )
 }
 

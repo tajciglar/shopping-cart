@@ -1,0 +1,22 @@
+.header {
+    display: grid;
+    grid-template-columns: 100px auto 200px;
+    gap: 100px;
+    padding: 10px;
+    border: 2px red solid;
+}
+
+.header input {
+    width: 300px;
+}
+
+.search {
+    display: flex;
+    gap: 10px;
+}
+
+.links {
+    display: flex;
+    gap: 30px;
+
+}   

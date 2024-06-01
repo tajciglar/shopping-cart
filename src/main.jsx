@@ -7,13 +7,25 @@ import {
 } from "react-router-dom";
 
 import './index.css'
+import ItemPage from './components/ItemPage.jsx';
+import HomePage from './components/HomePage.jsx';
 
-const router = createBrowserRouter(
+const router = createBrowserRouter([
   {
     path: "/",
-    element: <App />
-  }
-)
+    element: <App />,
+    children: [
+      {
+        path: "/",
+        element: <HomePage />,
+      },
+      {
+        path: "items",
+        element: <ItemPage />,
+      },
+    ]
+  },
+]);
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>

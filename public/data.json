@@ -1,0 +1,110 @@
+{
+    "categories": [
+      {
+        "name": "Fruits & Vegetables",
+        "items": [
+          {
+            "id": 1,
+            "name": "Organic Apples",
+            "price": 2.99,
+            "organic": true,
+            "dietary": ["vegan", "gluten-free"],
+            "bulk": true
+          },
+          {
+            "id": 2,
+            "name": "Carrots",
+            "price": 1.49,
+            "organic": false,
+            "dietary": ["vegan", "gluten-free"],
+            "bulk": true
+          }
+        ]
+      },
+      {
+        "name": "Dairy",
+        "items": [
+          {
+            "id": 3,
+            "name": "Organic Milk",
+            "price": 3.99,
+            "organic": true,
+            "dietary": ["gluten-free"],
+            "bulk": false
+          },
+          {
+            "id": 4,
+            "name": "Cheddar Cheese",
+            "price": 5.49,
+            "organic": false,
+            "dietary": ["gluten-free"],
+            "bulk": false
+          }
+        ]
+      },
+      {
+        "name": "Bakery",
+        "items": [
+          {
+            "id": 5,
+            "name": "Gluten-Free Bread",
+            "price": 4.99,
+            "organic": false,
+            "dietary": ["gluten-free"],
+            "bulk": false
+          },
+          {
+            "id": 6,
+            "name": "Whole Wheat Bread",
+            "price": 2.99,
+            "organic": true,
+            "dietary": [],
+            "bulk": true
+          }
+        ]
+      },
+      {
+        "name": "Beverages",
+        "items": [
+          {
+            "id": 7,
+            "name": "Orange Juice",
+            "price": 3.49,
+            "organic": true,
+            "dietary": ["vegan", "gluten-free"],
+            "bulk": true
+          },
+          {
+            "id": 8,
+            "name": "Almond Milk",
+            "price": 2.99,
+            "organic": false,
+            "dietary": ["vegan", "gluten-free"],
+            "bulk": false
+          }
+        ]
+      },
+      {
+        "name": "Snacks",
+        "items": [
+          {
+            "id": 9,
+            "name": "Vegan Protein Bars",
+            "price": 1.99,
+            "organic": true,
+            "dietary": ["vegan", "gluten-free"],
+            "bulk": true
+          },
+          {
+            "id": 10,
+            "name": "Organic Almonds",
+            "price": 6.99,
+            "organic": true,
+            "dietary": ["vegan", "gluten-free"],
+            "bulk": true
+          }
+        ]
+      }
+    ]
+  }
+  
