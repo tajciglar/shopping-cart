@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
+import './CategoryPage.css';
 
 const CategoryPage = () => {
     const [data, setData] = useState(null);
@@ -35,13 +36,13 @@ const CategoryPage = () => {
     return (
         <div className="categoryPage">
         {data.categories.map((category) => (
+            <Link to={category.name} data={data}>
             <div key={category.name} className="category">
                 <div className="card-category">
-                    <Link to={category.name} data={data}>
-                        <p>{category.name}</p>
-                    </Link>
+                     <p>{category.name}</p>
                 </div>
             </div>
+            </Link>
         ))}
         </div>
     );
