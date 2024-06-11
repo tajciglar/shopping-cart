@@ -6,7 +6,7 @@ const HomePage = () => {
   return (
     <div className="homePage">
       <p>Welcome to our shop</p>
-      <button><Link to="/items">See products</Link></button>
+      <button><Link to="/category">See products</Link></button>
     </div>
   );
 };
