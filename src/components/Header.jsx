@@ -4,15 +4,15 @@ import { Link } from 'react-router-dom';
 function Header() {
   return (
     <div className='header'>
-        <img src='#'></img> 
+        <Link to="/"><img src='logo.png' alt='Site Logo' /></Link> 
         <div className='search'>
-         <input type='text'></input>
-         <button type='submit'></button>
+         <input type='text' placeholder='Search items...' />
+         <button type='submit'>Search</button>
         </div>
         <div className='links'>
             <Link to="/">Home</Link>
             <Link to="category">Items</Link>  
-            <Link to="cart"><img src='cart.png' width={25} height={25}></img></Link>
+            <Link to="cart"><img src='cart.png' alt='Cart' /></Link>
         </div>
     </div>
   );

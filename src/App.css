@@ -1,16 +1,16 @@
+
 #root {
   display: grid;
-  grid-template-rows: 50px auto 200px;
-  height: 100vh;
+  grid-template-rows: auto 1fr auto;
+  min-height: 100vh;
 }
 
 .main-content {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 90vh;
-  min-height: 400px;
 }
+
 
 .loading, .error {
   text-align: center;

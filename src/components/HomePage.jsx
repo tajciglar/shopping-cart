@@ -3,11 +3,15 @@ import { Link } from 'react-router-dom';
 import './HomePage.css';
 
 const HomePage = () => {
-
   return (
     <div className="home-page">
-      <p>Welcome to our shop</p>
-      <button><Link to="/category">See products</Link></button>
+      <div className="home-content">
+        <h1>Welcome to Our Shop</h1>
+        <p>We offer the freshest and highest quality groceries delivered straight to your door.</p>
+        <button className="see-products-button">
+          <Link to="/category">See Products</Link>
+        </button>
+      </div>
     </div>
   );
 };

@@ -1,0 +1,323 @@
+{
+    "categories": [
+      {
+        "name": "Fruits",
+        "items": [
+          {
+            "id": 1,
+            "name": "Organic Apples",
+            "price": 2.99,
+            "organic": true,
+            "dietary": ["vegan", "gluten-free"],
+            "bulk": true
+          },
+          {
+            "id": 2,
+            "name": "Bananas",
+            "price": 1.49,
+            "organic": false,
+            "dietary": ["vegan", "gluten-free"],
+            "bulk": true
+          },
+          {
+            "id": 3,
+            "name": "Strawberries",
+            "price": 3.99,
+            "organic": true,
+            "dietary": ["vegan", "gluten-free"],
+            "bulk": false
+          },
+          {
+            "id": 4,
+            "name": "Blueberries",
+            "price": 4.99,
+            "organic": false,
+            "dietary": ["vegan", "gluten-free"],
+            "bulk": true
+          },
+          {
+            "id": 5,
+            "name": "Grapes",
+            "price": 2.99,
+            "organic": true,
+            "dietary": ["vegan", "gluten-free"],
+            "bulk": false
+          },
+          {
+            "id": 6,
+            "name": "Oranges",
+            "price": 3.49,
+            "organic": false,
+            "dietary": ["vegan", "gluten-free"],
+            "bulk": true
+          }
+        ]
+      },
+      {
+        "name": "Vegetables",
+        "items": [
+          {
+            "id": 7,
+            "name": "Carrots",
+            "price": 1.49,
+            "organic": false,
+            "dietary": ["vegan", "gluten-free"],
+            "bulk": true
+          },
+          {
+            "id": 8,
+            "name": "Broccoli",
+            "price": 2.49,
+            "organic": true,
+            "dietary": ["vegan", "gluten-free"],
+            "bulk": false
+          },
+          {
+            "id": 9,
+            "name": "Spinach",
+            "price": 3.99,
+            "organic": true,
+            "dietary": ["vegan", "gluten-free"],
+            "bulk": true
+          },
+          {
+            "id": 10,
+            "name": "Tomatoes",
+            "price": 2.99,
+            "organic": false,
+            "dietary": ["vegan", "gluten-free"],
+            "bulk": true
+          },
+          {
+            "id": 11,
+            "name": "Cucumbers",
+            "price": 1.99,
+            "organic": true,
+            "dietary": ["vegan", "gluten-free"],
+            "bulk": false
+          },
+          {
+            "id": 12,
+            "name": "Peppers",
+            "price": 2.99,
+            "organic": false,
+            "dietary": ["vegan", "gluten-free"],
+            "bulk": true
+          }
+        ]
+      },
+      {
+        "name": "Dairy",
+        "items": [
+          {
+            "id": 13,
+            "name": "Organic Milk",
+            "price": 3.99,
+            "organic": true,
+            "dietary": ["gluten-free"],
+            "bulk": false
+          },
+          {
+            "id": 14,
+            "name": "Cheddar Cheese",
+            "price": 5.49,
+            "organic": false,
+            "dietary": ["gluten-free"],
+            "bulk": false
+          },
+          {
+            "id": 15,
+            "name": "Greek Yogurt",
+            "price": 4.99,
+            "organic": true,
+            "dietary": ["gluten-free"],
+            "bulk": false
+          },
+          {
+            "id": 16,
+            "name": "Butter",
+            "price": 3.49,
+            "organic": false,
+            "dietary": ["gluten-free"],
+            "bulk": false
+          },
+          {
+            "id": 17,
+            "name": "Cottage Cheese",
+            "price": 2.99,
+            "organic": false,
+            "dietary": ["gluten-free"],
+            "bulk": false
+          },
+          {
+            "id": 18,
+            "name": "Almond Milk",
+            "price": 3.49,
+            "organic": true,
+            "dietary": ["vegan", "gluten-free"],
+            "bulk": true
+          }
+        ]
+      },
+      {
+        "name": "Bakery",
+        "items": [
+          {
+            "id": 19,
+            "name": "Gluten-Free Bread",
+            "price": 4.99,
+            "organic": false,
+            "dietary": ["gluten-free"],
+            "bulk": false
+          },
+          {
+            "id": 20,
+            "name": "Whole Wheat Bread",
+            "price": 2.99,
+            "organic": true,
+            "dietary": [],
+            "bulk": true
+          },
+          {
+            "id": 21,
+            "name": "Croissants",
+            "price": 3.99,
+            "organic": false,
+            "dietary": [],
+            "bulk": true
+          },
+          {
+            "id": 22,
+            "name": "Bagels",
+            "price": 4.49,
+            "organic": false,
+            "dietary": [],
+            "bulk": true
+          },
+          {
+            "id": 23,
+            "name": "Muffins",
+            "price": 3.99,
+            "organic": true,
+            "dietary": ["gluten-free"],
+            "bulk": false
+          },
+          {
+            "id": 24,
+            "name": "Baguettes",
+            "price": 2.99,
+            "organic": false,
+            "dietary": [],
+            "bulk": true
+          }
+        ]
+      },
+      {
+        "name": "Beverages",
+        "items": [
+          {
+            "id": 25,
+            "name": "Orange Juice",
+            "price": 3.49,
+            "organic": true,
+            "dietary": ["vegan", "gluten-free"],
+            "bulk": true
+          },
+          {
+            "id": 26,
+            "name": "Almond Milk",
+            "price": 2.99,
+            "organic": false,
+            "dietary": ["vegan", "gluten-free"],
+            "bulk": false
+          },
+          {
+            "id": 27,
+            "name": "Green Tea",
+            "price": 4.99,
+            "organic": true,
+            "dietary": ["vegan", "gluten-free"],
+            "bulk": false
+          },
+          {
+            "id": 28,
+            "name": "Coffee",
+            "price": 6.99,
+            "organic": false,
+            "dietary": ["vegan", "gluten-free"],
+            "bulk": true
+          },
+          {
+            "id": 29,
+            "name": "Coconut Water",
+            "price": 3.99,
+            "organic": true,
+            "dietary": ["vegan", "gluten-free"],
+            "bulk": false
+          },
+          {
+            "id": 30,
+            "name": "Sparkling Water",
+            "price": 2.49,
+            "organic": false,
+            "dietary": ["vegan", "gluten-free"],
+            "bulk": true
+          }
+        ]
+      },
+      {
+        "name": "Snacks",
+        "items": [
+          {
+            "id": 31,
+            "name": "Vegan Protein Bars",
+            "price": 1.99,
+            "organic": true,
+            "dietary": ["vegan", "gluten-free"],
+            "bulk": true
+          },
+          {
+            "id": 32,
+            "name": "Organic Almonds",
+            "price": 6.99,
+            "organic": true,
+            "dietary": ["vegan", "gluten-free"],
+            "bulk": true
+          },
+          {
+            "id": 33,
+            "name": "Popcorn",
+            "price": 2.49,
+            "organic": false,
+            "dietary": ["gluten-free"],
+            "bulk": true
+          },
+          {
+            "id": 34,
+            "name": "Chips",
+            "price": 3.49,
+            "organic": false,
+            "dietary": ["gluten-free"],
+            "bulk": true
+          },
+          {
+            "id": 35,
+            "name": "Trail Mix",
+            "price": 4.99,
+            "organic": true,
+            "dietary": ["vegan", "gluten-free"],
+            "bulk": true
+          },
+          {
+            "id": 36,
+            "name": "Granola",
+            "price": 3.99,
+            "organic": false,
+            "dietary": ["vegan", "gluten-free"],
+            "bulk": true
+          }
+        ]
+      }
+    ]
+  }
+  

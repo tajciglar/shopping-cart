@@ -2,5 +2,67 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 90vh;
-}
+    height: 100vh;
+    background-image: url('grocery-background.jpg'); 
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+  }
+  
+  .home-content {
+    background: rgba(0, 0, 0, 0.6); 
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+  }
+  
+  .home-content h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+  }
+  
+  .home-content p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+  }
+  
+  .see-products-button {
+    background: #ff7f50;
+    color: #fff;
+    padding: 15px 30px;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .see-products-button a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .see-products-button:hover {
+    background: #ff6347;
+  }
+  
+  @media (max-width: 768px) {
+    .home-content {
+      padding: 20px;
+    }
+  
+    .home-content h1 {
+      font-size: 2em;
+    }
+  
+    .home-content p {
+      font-size: 1em;
+    }
+  
+    .see-products-button {
+      padding: 10px 20px;
+      font-size: 1em;
+    }
+  }
+  
