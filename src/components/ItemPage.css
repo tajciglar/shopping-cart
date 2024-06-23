@@ -1,15 +1,47 @@
 .itemPage {
-    height: 90vh;
-}
-
-.overlay {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 800px;
+    height: 100%;
+  }
+  
+  .itemPage h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .itemPage ul {
+    list-style: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Adjusted */
+    gap: 20px;
+  }
+  
+  .itemPage li {
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    text-align: center;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .itemPage li button {
+    margin-top: 10px;
+    width: 100%;
+  }
+  
+  .overlay {
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.5); 
-    z-index: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1000;
   }
   
   .pop-up {
@@ -20,7 +52,24 @@
     background-color: white;
     border: 1px solid #ccc;
     padding: 20px;
-    z-index: 1; 
+    z-index: 1001;
+    max-width: 90%;
+    width: 400px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center;
+  }
+  
+  .pop-up p {
+    margin: 10px 0;
+  }
+  
+  .pop-up button {
+    margin: 5px;
+  }
+  
+  .pop-up button:first-of-type {
+    margin-right: 10px;
   }
   
   .hide {

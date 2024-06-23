@@ -1,63 +1,83 @@
-/* Header.css */
 .header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background-color: #fff;
-    padding: 10px 20px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--card-bg-color);
+  padding: 10px 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.header img {
+  width: 50px;
+  height: 50px;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+}
+
+.search input {
+  padding: 10px;
+  border: 1px solid var(--border-color);
+  border-right: none;
+  border-radius: 4px 0 0 4px;
+  outline: none;
+  width: 200px;
+  background-color: var(--input-bg-color);
+  color: var(--text-color);
+}
+
+.search button {
+  padding: 10px 15px;
+  border: 1px solid var(--border-color);
+  border-left: none;
+  background-color: rgba(167, 167, 167, 0.9);
+  color: white;
+  border-radius: 0 4px 4px 0;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.search button:hover {
+  background-color: rgba(167, 167, 167, 0.7);
+}
+
+.links {
+  display: flex;
+  align-items: center;
+}
+
+.links a {
+  margin-left: 20px;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.links img {
+  width: 25px;
+  height: 25px;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --border-color: #444;
+    --card-bg-color: #333;
+    --input-bg-color: #555;
+    --text-color: #fff;
   }
-  
-  .header img {
-    width: 50px;
-    height: 50px;
+
+  img {
+    filter: invert(1);
   }
-  
-  .search {
-    display: flex;
-    align-items: center;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --border-color: #ddd;
+    --card-bg-color: #fff;
+    --input-bg-color: #f9f9f9;
+    --text-color: #000;
   }
-  
-  .search input {
-    padding: 5px 10px;
-    border: 1px solid #ddd;
-    border-radius: 4px 0 0 4px;
-    outline: none;
-    width: 200px;
-  }
-  
-  .search button {
-    padding: 5px 10px;
-    border: 1px solid #ddd;
-    border-left: none;
-    background-color: #007bff;
-    color: white;
-    border-radius: 0 4px 4px 0;
-    cursor: pointer;
-  }
-  
-  .search button:hover {
-    background-color: #0056b3;
-  }
-  
-  .links {
-    display: flex;
-    align-items: center;
-  }
-  
-  .links a {
-    margin-left: 20px;
-    text-decoration: none;
-    color: #333;
-    font-weight: 500;
-  }
-  
-  .links a:hover {
-    color: #007bff;
-  }
-  
-  .links img {
-    width: 25px;
-    height: 25px;
-  }
-  
+}

@@ -6,12 +6,11 @@
     background-image: url('grocery-background.jpg'); 
     background-size: cover;
     background-position: center;
-    color: #fff;
     text-align: center;
   }
   
   .home-content {
-    background: rgba(0, 0, 0, 0.6); 
+    background: rgba(208, 208, 208, 0.6); 
     padding: 40px;
     border-radius: 10px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
@@ -28,7 +27,7 @@
   }
   
   .see-products-button {
-    background: #ff7f50;
+    background: rgba(167, 167, 167, 0.9);
     color: #fff;
     padding: 15px 30px;
     font-size: 1.2em;
@@ -44,7 +43,7 @@
   }
   
   .see-products-button:hover {
-    background: #ff6347;
+    background: rgba(167, 167, 167, 0.7);
   }
   
   @media (max-width: 768px) {

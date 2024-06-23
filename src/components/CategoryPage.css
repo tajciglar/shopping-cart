@@ -5,16 +5,34 @@
     width: 100%;
     max-width: 1200px;
     padding: 20px;
-}
+    background-color: var(--primary-bg-color);
+  }
   
-.category {
-    border: 1px solid black;
+  .category {
+    border: 1px solid var(--border-color);
     padding: 20px;
-}
-
-.card-category {
+    border-radius: 10px;
+    background-color: var(--input-bg-color);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s, box-shadow 0.3s;
+  }
+  
+  .category:hover {
+    background-color: rgba(167, 167, 167, 0.7);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card-category {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100px;
-}
+    color: var(--text-color);
+    font-size: 1.2rem;
+    text-align: center;
+  }
+  
+  .card-category:hover {
+    color: #666666;
+  }
+  

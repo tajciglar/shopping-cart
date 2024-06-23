@@ -36,8 +36,8 @@ const CategoryPage = () => {
     return (
         <div className="categoryPage">
         {data.categories.map((category) => (
-            <Link to={category.name} data={data}>
-            <div key={category.name} className="category">
+            <Link to={category.name} key={category.name} className="category-link">
+            <div className="category">
                 <div className="card-category">
                      <p>{category.name}</p>
                 </div>
