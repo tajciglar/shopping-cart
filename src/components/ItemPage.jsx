@@ -84,10 +84,12 @@ const ItemPage = () => {
                     <div className="overlay" onClick={handleClosePopup}></div>
                     <div className="pop-up">
                         <p>{itemPopUp.name}</p>
-                        <p>{itemPopUp.price}</p>
-                        <button onClick={decreaseQuantity}>-</button>
-                        <p>{itemPopUp.quantity}</p>
-                        <button onClick={increaseQuantity}>+</button>
+                        <p>{itemPopUp.price} $</p>
+                        <div className="pop-up-quantity">
+                            <button onClick={decreaseQuantity}>-</button>
+                            <p>{itemPopUp.quantity}</p>
+                            <button onClick={increaseQuantity}>+</button>
+                        </div>
                         <button type="submit" onClick={() => handleAddToCart(itemPopUp)}>Add to Cart</button>
                     </div>
                 </>

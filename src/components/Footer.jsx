@@ -35,7 +35,7 @@ const Footer = () => {
             <p>&copy; {new Date().getFullYear()} Taj Brzovič Ciglar. All rights reserved.</p>
         </div>
     </footer>
-  );
+  )
 }
 
 export default Footer;

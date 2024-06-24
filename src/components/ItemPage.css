@@ -67,12 +67,15 @@
   .pop-up button {
     margin: 5px;
   }
-  
-  .pop-up button:first-of-type {
-    margin-right: 10px;
-  }
+
   
   .hide {
     display: none;
   }
   
+.pop-up-quantity {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
